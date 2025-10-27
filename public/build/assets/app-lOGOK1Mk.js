@@ -2221,8 +2221,8 @@ document.addEventListener("DOMContentLoaded", () => {
       e.classList.toggle("dark");
       const n = e.classList.contains("dark") ? "dark" : "light";
       localStorage.setItem("theme", n);
-      t.textContent = html.classList.contains("dark") ? "☀️" : "🌙";
+      t.textContent = e.classList.contains("dark") ? "☀️" : "🌙";
     });
-    btn.textContent = html.classList.contains("dark") ? "☀️" : "🌙";
+    t.textContent = e.classList.contains("dark") ? "☀️" : "🌙";
   }
 });
