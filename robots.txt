@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://portofolio-laravel-production-e075.up.railway.app/sitemap.xml
