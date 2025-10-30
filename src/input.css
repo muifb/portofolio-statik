@@ -20,7 +20,7 @@ body {
 }
 
 .hamburger-menu {
-  @apply w-[30px] h-0.5 my-2 bg-black block;
+  @apply w-[30px] h-0.5 my-2 bg-black dark:bg-white block;
 }
 
 .hamburger-active > span:nth-child(1) {
